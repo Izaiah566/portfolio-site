@@ -1,11 +1,8 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  padding: 0px 195px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,4 +21,23 @@
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.grid-3 {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.2s;
+  background: white;
+  display: grid;
+}
+
+.grid-3 .featured-card {
+  display: inline-block;
+  border-color: #747bff;
+  background-color: #a8acec;
+  border-radius: 50px;
+  width: 200px;
+  text-align: center;
 }

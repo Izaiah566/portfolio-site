@@ -1,0 +1,15 @@
+.contactForm {
+  display: grid;
+  gap: 1rem;
+}
+.contactInput {
+  padding: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.contactBtn {
+  background: #111;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
