@@ -16,6 +16,18 @@
   }
 }
 
+.btnPrimary {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 65px;
+  margin: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   border: 1px solid #ddd;
   border-radius: 10px;

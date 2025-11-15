@@ -1,4 +1,5 @@
-
+import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -9,8 +10,8 @@ const Home = () => {
              <section className={styles.hero}>
               <div>
                 <h2>Hi! My name is Izaiah!</h2>
-                <h1>A web developer who loves to code and create responsive and fun websites.</h1>
-                <button>View Projects</button>
+                <h1 className={styles.heroTitle}>A web developer who loves to code and create responsive and fun websites.</h1>
+                <Link to="/projects" className={styles.btnPrimary}>View Projects</Link>
               </div>
               <div className={styles.heroImg}>
                 <img src="images/my_photo.jpg"></img>
