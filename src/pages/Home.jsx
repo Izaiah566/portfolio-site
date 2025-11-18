@@ -14,7 +14,7 @@ const Home = () => {
                 <Link to="/projects" className={styles.btnPrimary}>View Projects</Link>
               </div>
               <div className={styles.heroImg}>
-                <img src="images/my_photo.jpg"></img>
+                <img src="images/IMG_6647.JPG"></img>
               </div>
                 
               
