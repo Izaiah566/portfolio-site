@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styles from "./Detail.module.css";
 import { projectData } from "../../public/projectData";
 
@@ -15,7 +15,7 @@ export default function Detail() {
       <h1>{project.title}</h1>
 
       <div className={styles.image}>
-        <img src={project.image} alt={project.title} />
+        <img src={project.image} alt={project.title}/>
       </div>
 
       <p className={styles.description}>{project.longDescription}</p>
@@ -34,6 +34,8 @@ export default function Detail() {
         <h2>Improvement</h2>
         <p className={styles.improvement}>{project.improvment}</p>
       </div>
+
+      <a href={project.gitHubLink} target="_blank"> Click here for code snippets.</a>
 
     </div>
   );
