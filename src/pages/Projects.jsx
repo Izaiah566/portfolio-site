@@ -18,10 +18,11 @@ const Projects = () => {
             <section className={styles.cardGrid}>
              {projectData.map((project) => (
                 <div key={project.id}  className={styles.card}>
+                 <div className={styles.cardImg}><img src={project.image}/></div>
                  <div className={styles.cardBody}>
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
-                  <button className={styles.btnPrimary} onClick={() => navigate(`/Projects/${project.id}`)}>View Project</button>
+                  <button className={styles.btnPrimary} onClick={() => navigate(`/Projects/${project.slug}`)}>View Project</button>
                  </div>
                 </div>
               ))}

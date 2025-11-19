@@ -1,0 +1,26 @@
+.detail {
+  padding: 2rem 0;
+}
+
+.image {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  background: #ddd;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  display: flex;
+}
+
+.description {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  max-width: 800px;
+  border-bottom: 1px solid black;
+}
+
+.subHeader {
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+}

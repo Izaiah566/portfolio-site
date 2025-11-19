@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
+import { projectData } from "../../public/projectData";
 
 const Home = () => {
     return (
@@ -23,12 +24,13 @@ const Home = () => {
 
              {/* Featured Projects */}
              <section className={styles.cardGrid}>
-              {[1,2,3].map((i) => (
-              <div key={i} className={styles.card}>
-               <div className={styles.cardImg}>Image</div>
+              {projectData.slice(0,3).map(project => (
+              <div key={project.id} className={styles.card}>
+               <div className={styles.cardImg}><img src={project.image}/></div>
                <div className={styles.cardBody}>
-                 <h3>Project Title {i}</h3>
-                 <p>Brief description of the project.</p>
+                 <h3>{project.title}</h3>
+                 <p>{project.description}</p>
+                 <Link to={`/Projects/${project.slug}`} className={styles.btnSecondary}>View Projects</Link>
                </div>
               </div>
              ))}

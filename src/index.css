@@ -24,20 +24,3 @@
 }
 
 
-.grid-3 {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 0.2s;
-  background: white;
-  display: grid;
-}
-
-.grid-3 .featured-card {
-  display: inline-block;
-  border-color: #747bff;
-  background-color: #a8acec;
-  border-radius: 50px;
-  width: 200px;
-  text-align: center;
-}

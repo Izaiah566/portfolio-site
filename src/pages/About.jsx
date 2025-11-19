@@ -12,7 +12,8 @@ const About = () => {
 
              <section>
               <h2>My Story</h2>
-              <p>I specialize in helping startups and brands communicate visually through clean, modern, and meaningful design. My approach blends research, creativity, and collaboration to deliver work that truly connects.</p>
+              <p>I specialize in helping startups and brands communicate visually through clean, modern, and meaningful design. 
+                My approach blends research, creativity, and collaboration to deliver work that truly connects.</p>
               <p>Beyond design, I love exploring new tech tools and helping small teams find their visual identity.</p>
              </section>
 
@@ -27,6 +28,11 @@ const About = () => {
                <li>JavaScript</li>
                <li>React</li>
               </ul>
+             </section>
+
+             <section>
+                <h2>Resume Link</h2>
+                
              </section>
 
 

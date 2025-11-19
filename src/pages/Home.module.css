@@ -60,6 +60,18 @@
   margin-top: 2rem;
 }
 
+.cardBody a {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  border-radius: 65px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 640px) {
   .cardGrid {
     grid-template-columns: repeat(2, 1fr);
@@ -78,18 +90,20 @@
   overflow: hidden;
   background: white;
   transition: 0.2s;
+  overflow: auto;
 }
 
 .card:hover {
   box-shadow: 0 3px 15px rgba(0,0,0,0.1);
 }
 
-.cardImg {
+.cardImg img{
   height: 200px;
   background: #eee;
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: fill;
 }
 
 .cardBody {
