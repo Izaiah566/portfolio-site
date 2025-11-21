@@ -1,4 +1,4 @@
-
+import styles from "./About.module.css"
 
 const About = () => {
     return (
@@ -31,8 +31,14 @@ const About = () => {
              </section>
 
              <section>
-                <h2>Resume Link</h2>
-                
+                <a
+                  href="Izaiah Harrison - Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.resumeButton}
+                >
+                    View Resume
+                </a>
              </section>
 
 

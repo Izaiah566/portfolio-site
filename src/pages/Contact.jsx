@@ -19,7 +19,7 @@ const Contact = () => {
 
 
           <div >
-            <p>Or reach me directly at <a href="mailto:you@example.com" className="underline">you@example.com</a></p>
+            <p>Or reach me directly at <a href="mailto:izaiahlharrison@gmail.com" className="underline">izaiahlharrison@gmail.com</a></p>
             <p className="mt-2">Connect: LinkedIn · GitHub</p>
           </div>
          </div>
