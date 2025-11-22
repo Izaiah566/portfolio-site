@@ -1,0 +1,364 @@
+/* ==========================================
+   OPTION C — CLEAN REWRITE (Mobile‑First)
+   with Tablet + Desktop Breakpoints
+   Pages: Home, About, Projects, Contact
+   ========================================== */
+
+/* -------------------------------------------------- */
+/* HOME.module.css — Clean, Mobile‑First              */
+/* -------------------------------------------------- */
+
+/* HERO */
+.homeHero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 1rem 0;
+}
+
+.homeHeroTitle {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.homeHeroText {
+  color: #555;
+  font-size: 1rem;
+  max-width: 480px;
+}
+
+.homeHeroButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.homeBtnPrimary {
+  padding: 0.75rem 1.4rem;
+  background: #111;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.homeBtnOutline {
+  padding: 0.75rem 1.4rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #111;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* PROJECT PREVIEW */
+.homeProjectsSection {
+  margin-top: 3rem;
+}
+
+.homeSectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.homeProjectsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.homeProjectCard {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #fff;
+}
+
+.homeProjectImg {
+  width: 100%;
+  height: 170px;
+  background: #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.homeViewButton {
+  margin-top: 0.6rem;
+  display: inline-block;
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* ==================================================
+   TABLET BREAKPOINT — min-width: 640px
+   ================================================== */
+@media (min-width: 640px) {
+  /* HOME */
+  .homeHero {
+    flex-direction: row;
+    align-items: center;
+  }
+  .homeHeroTitle {
+    font-size: 2.4rem;
+  }
+  .homeProjectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ==================================================
+   DESKTOP BREAKPOINT — min-width: 1024px
+   ================================================== */
+@media (min-width: 1024px) {
+  /* HOME */
+  .homeHeroTitle {
+    font-size: 3rem;
+  }
+  .homeProjectsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* -------------------------------------------------- */
+/* ABOUT.module.css — Clean, Mobile‑First             */
+/* -------------------------------------------------- */
+
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.aboutTitle {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.aboutText {
+  color: #444;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.aboutImg {
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+  background: #ddd;
+  object-fit: cover;
+}
+
+.aboutSkills {
+  margin-top: 2rem;
+}
+
+.aboutSkillsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.aboutResumeButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.4rem;
+}
+
+.aboutResumeBtn {
+  padding: 0.85rem 1.3rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.aboutResumePrimary {
+  background: #111;
+  color: #fff;
+}
+
+.aboutResumeView {
+  background: #f3f3f3;
+  color: #111;
+}
+
+/* ==================================================
+   TABLET BREAKPOINT — min-width: 640px
+   ================================================== */
+@media (min-width: 640px) {
+
+  /* ABOUT */
+  .aboutWrapper {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .aboutImg {
+    height: 260px;
+  }
+  .aboutSkillsList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ==================================================
+   DESKTOP BREAKPOINT — min-width: 1024px
+   ================================================== */
+@media (min-width: 1024px) {
+  /* ABOUT */
+  .aboutImg {
+    height: 340px;
+  }
+  .aboutSkillsList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* -------------------------------------------------- */
+/* PROJECTS.module.css — Clean, Mobile‑First          */
+/* -------------------------------------------------- */
+
+.projectsHeader {
+  margin-bottom: 1rem;
+}
+
+.projectsTitle {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.projectsSubtitle {
+  color: #555;
+  font-size: 1rem;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.projectCard {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.projectImg {
+  width: 100%;
+  height: 180px;
+  background: #bbb;
+  object-fit: cover;
+}
+
+.projectBody {
+  padding: 1rem;
+}
+
+.projectReadMore {
+  font-weight: 600;
+  color: #007bff;
+  margin-top: 0.6rem;
+  display: inline-block;
+}
+
+/* ==================================================
+   TABLET BREAKPOINT — min-width: 640px
+   ================================================== */
+@media (min-width: 640px) {
+  /* PROJECTS */
+  .projectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ==================================================
+   DESKTOP BREAKPOINT — min-width: 1024px
+   ================================================== */
+@media (min-width: 1024px) {
+  /* PROJECTS */
+  .projectsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* -------------------------------------------------- */
+/* CONTACT.module.css — Clean, Mobile‑First           */
+/* -------------------------------------------------- */
+
+.contactWrapper {
+  padding-top: 1rem;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.contactDesc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.contactForm {
+  display: grid;
+  gap: 1rem;
+}
+
+.contactInput {
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.contactTextarea {
+  height: 150px;
+  resize: vertical;
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.contactSubmit {
+  background: #111;
+  color: #fff;
+  padding: 0.9rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.contactInfo {
+  margin-top: 1.2rem;
+  color: #444;
+}
+
+/* ==================================================
+   TABLET BREAKPOINT — min-width: 640px
+   ================================================== */
+@media (min-width: 640px) {
+  /* CONTACT */
+  .contactForm {
+    max-width: 500px;
+  }
+}
+
+/* ==================================================
+   DESKTOP BREAKPOINT — min-width: 1024px
+   ================================================== */
+@media (min-width: 1024px) {
+  /* CONTACT */
+  .contactWrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}

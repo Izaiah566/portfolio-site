@@ -1,47 +1,19 @@
-.hero {
-  display:block;
-  grid-template-columns: 250px 1fr;
-  gap: 35px;
+.homeHero {
+  display:inline-block;
   padding: 20px;
   align-items: center;
 }
 
 .heroImg img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-@media (min-width: 640px) {
-  .heroTitle {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 1024px) {
-  .heroTitle {
-    font-size: 3rem;
-  }
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 
-@media (min-width: 1024px) {
-    .hero {
-        grid-template-columns: repeat(2, 1fr);
-        display: grid;
-    }
-
-    .heroImg img {
-        width: 600px;
-        height: 600px;
-        border-radius: 50%;
-        display: block;
-        margin: 0 auto;
-    }
-}
-
-.hero a {
+.homeBtnPrimary {
   width: 150px;
   background-color: black;
   color: white;
@@ -54,13 +26,13 @@
   justify-content: center;
 }
 
-.cardGrid {
-  display: grid;
+.homeProjectGrid {
+  display: inline-grid;
   gap: 2rem;
   margin-top: 2rem;
 }
 
-.cardBody a {
+.homeProjectBody a {
   width: 100%;
   background-color: black;
   color: white;
@@ -72,32 +44,18 @@
   justify-content: center;
 }
 
-@media (min-width: 640px) {
-  .cardGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .cardGrid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.card {
+.homeProjectCard {
   border: 1px solid #ddd;
   border-radius: 10px;
-  overflow: hidden;
   background: white;
   transition: 0.2s;
-  overflow: auto;
 }
 
-.card:hover {
+.homeProjectCard:hover {
   box-shadow: 0 3px 15px rgba(0,0,0,0.1);
 }
 
-.cardImg img{
+.homeProjectImg img{
   height: 200px;
   background: #eee;
   display: flex;
@@ -106,6 +64,56 @@
   object-fit: fill;
 }
 
-.cardBody {
+.homeProjectBody {
   padding: 1rem;
+}
+
+.homeCIA {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .homeHero {
+    display: block;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+    .homeHero {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+    }
+    
+    .heroTitle {
+      font-size: 3rem;
+    }
+
+    .heroImg img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .homeProjectGrid {
+      grid-template-columns: repeat(2, 1fr);
+      display: grid;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+  .homeProjectGrid {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
 }

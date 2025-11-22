@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./Projects.module.css"
-import { projectData } from "../../public/projectData";
+import { projectData } from "../data/projectData";
 
 const Projects = () => {
 

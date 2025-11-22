@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import styles from "./Detail.module.css";
-import { projectData } from "../../public/projectData";
+import { projectData } from "../data/projectData";
 
 export default function Detail() {
   const { slug } = useParams();
