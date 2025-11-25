@@ -36,7 +36,7 @@ const Home = () => {
 
 
             {/* CTA */}
-             <section>
+             <section className={styles.homeCIA}>
               <h2>Let’s build something great together.</h2>
               <button>Contact Me</button>
              </section>
