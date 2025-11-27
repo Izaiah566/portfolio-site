@@ -34,8 +34,17 @@ export default function Detail() {
         <h2>Improvement</h2>
         <p className={styles.improvement}>{project.improvment}</p>
       </div>
-
-      <a href={project.gitHubLink} target="_blank"> Click here for code snippets.</a>
+      {project.liveDemo ? (
+        <a
+          href={project.liveDemo}
+          target="_blank"
+          className={styles.demoButton}
+        >
+          Live Demo →
+        </a>
+      ) : (
+        <p className={styles.noDemo}>Live demo not available</p>
+      )}
 
     </div>
   );

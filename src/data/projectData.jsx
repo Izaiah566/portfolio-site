@@ -12,7 +12,8 @@ export const projectData = [
         solution: "I looked up online for tutorials and found it on youtube. I followed the instructions step-by-step; unforuntately it stopped at Part 5",
         improvment: "I would work more on the creating the background, the enemies and objectives",
         image: "/images/dungeon.jpg",
-        gitHubLink: "https://github.com/Izaiah566/Python_RPG"
+        gitHubLink: "https://github.com/Izaiah566/Python_RPG",
+        liveDemo: ""
     },
 
     {
@@ -30,7 +31,8 @@ export const projectData = [
         solution: "I need to make sure to set the shaking state to true and then to false in the setTimeout statement.",
         improvment: "I could add an ",
         image: "/images/8ball.jpg",
-        gitHubLink: "https://github.com/Izaiah566/React-Magic-8ball"
+        gitHubLink: "https://github.com/Izaiah566/React-Magic-8ball",
+        liveDemo: "https://magic-8ball-pgsoo0tem-izaiah-harrisons-projects.vercel.app"
     },
 
     {
@@ -49,7 +51,8 @@ export const projectData = [
         ,
         improvment: "I should revisit the concepts to learn how to filter the other data. Maybe I would work on displaying information whether it is cancelled or not.",
         image: "/images/airlines.jpg",
-        gitHubLink: "https://github.com/Izaiah566/react-airlines"
+        gitHubLink: "https://github.com/Izaiah566/react-airlines",
+        liveDemo: "https://airlines-site.vercel.app/"
     },
 
     {
@@ -68,8 +71,10 @@ export const projectData = [
         `,
         solution: "I looked for starter layouts and mockup database to spare me the effort to create the website from scratch",
         improvment: "I would had enhancement to the project revisiting the supabase and experiment with it more.",
-        image: "/images/marketplace.jpg",
-        gitHubLink: "https://github.com/Izaiah566/final-project-izaiah-store"
+        image: "/images/marketplace.png",
+        gitHubLink: "https://github.com/Izaiah566/final-project-izaiah-store",
+        liveDemo: "https://markethub-react-git-main-izaiah-harrisons-projects.vercel.app"
+        
     },
 
     {
@@ -86,6 +91,7 @@ export const projectData = [
         solution: "I looked up some templates of what my portfolio needs to look like and I managed to make it look enticing.",
         improvment: "There is no improvement I could think of.",
         image: "/images/portfolio.jpg",
-        gitHubLink: "https://github.com/Izaiah566/portfolio-site"
+        gitHubLink: "https://github.com/Izaiah566/portfolio-site",
+        liveDemo: ""
     }
 ];

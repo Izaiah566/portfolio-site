@@ -13,3 +13,15 @@
   padding: 0.8rem;
   border-radius: 8px;
 }
+
+.successMsg {
+  margin-top: 1rem;
+  color: #0a8a28;
+  font-weight: 600;
+}
+
+.errorMsg {
+  margin-top: 1rem;
+  color: #c23333;
+  font-weight: 600;
+}
