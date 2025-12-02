@@ -30,6 +30,10 @@
   text-decoration: underline;
 }
 
+.mobileMenu a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .navLinks {
     display: flex;

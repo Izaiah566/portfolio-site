@@ -1,36 +1,38 @@
+import { Link } from "react-router-dom";
 import styles from "./About.module.css"
 
 const About = () => {
     return (
         <>
-            <div>
+            <div className={styles.aboutWrapper}>
              <header>
-              <h1>Nice to meet you.</h1>
-              <p>I’m a Web developer passionate about creating responsive design and websites.</p>
+              <h1 className={styles.aboutTitle}>Nice to meet you.</h1>
+              <p className={styles.aboutText}>I’m a Web developer passionate about creating responsive design and websites.</p>
              </header>
 
 
-             <section>
-              <h2>My Story</h2>
-              <p>I specialize in helping startups and brands communicate visually through clean, modern, and meaningful design. 
+             <section className={styles.aboutHighlights}>
+              <h2 className={styles.highlightTitle}>My Story</h2>
+              <p className={styles.hightlightDesc}>I specialize in helping startups and brands communicate visually through clean, modern, and meaningful design. 
                 My approach blends research, creativity, and collaboration to deliver work that truly connects.</p>
-              <p>Beyond design, I love exploring new tech tools and helping small teams find their visual identity.</p>
+              <p className={styles.hightlightDesc}>Beyond design, I love exploring new tech tools and helping small teams find their visual identity.</p>
              </section>
 
 
-             <section>
-              <h2>Skills & Tools</h2>
-              <ul>
-               <li>Visual Studios</li>
-               <li>Python</li>
-               <li>HTML</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-               <li>React</li>
+             <section className={styles.aboutSkills}>
+              <h2 className={styles.aboutSkillsTitle}>Skills & Tools</h2>
+              <ul className={styles.aboutSkillsList}>
+               <li className={styles.skillTag}>Visual Studios</li>
+               <li className={styles.skillTag}>Python</li>
+               <li className={styles.skillTag}>HTML</li>
+               <li className={styles.skillTag}>CSS</li>
+               <li className={styles.skillTag}>JavaScript</li>
+               <li className={styles.skillTag}>React</li>
               </ul>
              </section>
 
              <section>
+                <h2>Resume</h2>
                 <a
                   href="Izaiah Harrison - Resume.pdf"
                   target="_blank"
@@ -44,7 +46,7 @@ const About = () => {
 
              <section>
               <h2>Let’s Work Together</h2>
-              <button size="lg">Contact Me</button>
+              <Link style={styles.contactBtn}>Contact Me</Link>
              </section>
             </div>
         </>

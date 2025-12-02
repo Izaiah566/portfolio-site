@@ -1,6 +1,7 @@
 .contactForm {
   display: grid;
   gap: 1rem;
+  margin: 25px 45px;
 }
 .contactInput {
   padding: 0.9rem;

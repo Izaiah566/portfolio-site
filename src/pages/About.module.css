@@ -1,3 +1,71 @@
+/* -------------------------------------------------- */
+/* ABOUT.module.css — Improved, Modern, Professional */
+/* -------------------------------------------------- */
+
+
+.aboutWrapper {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+padding: 1rem 0;
+}
+
+
+.aboutTitle {
+font-size: 2.4rem;
+font-weight: 800;
+line-height: 1.2;
+color: #111;
+}
+
+
+.aboutText {
+color: #444;
+line-height: 1.8;
+font-size: 1.05rem;
+max-width: 680px;
+}
+
+
+.aboutImg {
+width: 100%;
+height: 260px;
+border-radius: 14px;
+background: #e5e5e5;
+object-fit: cover;
+box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+
+/* Highlight boxes */
+.aboutHighlights {
+display: grid;
+grid-template-columns: 1fr;
+gap: 1rem;
+margin-top: 2rem;
+}
+
+
+.highlightCard {
+background: #fafafa;
+border: 1px solid #e5e5e5;
+padding: 1rem 1.2rem;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+
+.highlightTitle {
+font-weight: 700;
+margin-bottom: 0.3rem;
+font-size: 1.1rem;
+}
+
+
+.highlightDesc {
+font-size: 0.95rem;
+}
+
 .resumeButton {
   display: inline-block;
   padding: 0.75rem 1.4rem;

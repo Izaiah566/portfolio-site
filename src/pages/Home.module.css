@@ -26,6 +26,10 @@
   justify-content: center;
 }
 
+.homeBtnPrimary:hover {
+  background-color: rgb(60, 58, 58);
+}
+
 .homeProjectGrid {
   display: inline-grid;
   gap: 2rem;
@@ -70,6 +74,14 @@
 
 .homeCIA {
   display: inline-block;
+}
+
+.contactBtn {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

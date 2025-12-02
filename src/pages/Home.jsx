@@ -12,7 +12,7 @@ const Home = () => {
               <div>
                 <h2>Hi! My name is Izaiah!</h2>
                 <h1 className={styles.heroTitle}>A web developer who loves to code and create responsive and fun websites.</h1>
-                <Link to="/projects" className={styles.homeBtnPrimary}>View Projects</Link>
+                <Link to="/Projects" className={styles.homeBtnPrimary}>View Projects</Link>
               </div>
               <div className={styles.heroImg}>
                 <img src="images/IMG_6647.JPG"></img>
@@ -28,7 +28,7 @@ const Home = () => {
                <div className={styles.homeProjectBody}>
                  <h3>{project.title}</h3>
                  <p>{project.description}</p>
-                 <Link to={`/Projects/${project.slug}`} className={styles.btnSecondary}>View Projects</Link>
+                 <Link to={`/Projects/${project.slug}`} className={styles.btnSecondary}>View Project</Link>
                </div>
               </div>
              ))}
@@ -38,7 +38,7 @@ const Home = () => {
             {/* CTA */}
              <section className={styles.homeCIA}>
               <h2>Let’s build something great together.</h2>
-              <button>Contact Me</button>
+              <Link to={'/Contact'} className={styles.contactBtn}>Contact Me</Link>
              </section>
             </div>
         </>
