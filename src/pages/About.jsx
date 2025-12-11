@@ -46,7 +46,7 @@ const About = () => {
 
              <section>
               <h2>Let’s Work Together</h2>
-              <Link style={styles.contactBtn}>Contact Me</Link>
+              <Link className={styles.contactBtn} to={'/Contact'}>Contact Me</Link>
              </section>
             </div>
         </>

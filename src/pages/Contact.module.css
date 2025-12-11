@@ -1,28 +1,72 @@
+/* -------------------------------------------------- */
+/* CONTACT.module.css — Clean, Mobile‑First           */
+/* -------------------------------------------------- */
+
+.contactWrapper {
+  padding-top: 1rem;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.contactDesc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
 .contactForm {
   display: grid;
   gap: 1rem;
-  margin: 25px 45px;
 }
+
 .contactInput {
   padding: 0.9rem;
+  border-radius: 8px;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  font-size: 1rem;
 }
-.contactBtn {
+
+.contactTextarea {
+  height: 150px;
+  resize: vertical;
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.contactSubmit {
   background: #111;
-  color: white;
-  padding: 0.8rem;
+  color: #fff;
+  padding: 0.9rem;
   border-radius: 8px;
-}
-
-.successMsg {
-  margin-top: 1rem;
-  color: #0a8a28;
   font-weight: 600;
 }
 
-.errorMsg {
-  margin-top: 1rem;
-  color: #c23333;
-  font-weight: 600;
+.contactInfo {
+  margin-top: 1.2rem;
+  color: #444;
+}
+
+/* ==================================================
+   TABLET BREAKPOINT — min-width: 640px
+   ================================================== */
+@media (min-width: 640px) {
+  /* CONTACT */
+  .contactForm {
+    max-width: 500px;
+  }
+}
+
+/* ==================================================
+   DESKTOP BREAKPOINT — min-width: 1024px
+   ================================================== */
+@media (min-width: 1024px) {
+  /* CONTACT */
+  .contactWrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }
