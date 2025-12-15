@@ -31,8 +31,8 @@ export const projectData = [
         solution: "I need to make sure to set the shaking state to true and then to false in the setTimeout statement.",
         improvment: "I could add an ",
         image: "/images/8ball.jpg",
-        gitHubLink: "https://github.com/Izaiah566/React-Magic-8ball",
-        liveDemo: ""
+        gitHubLink: "https://github.com/Izaiah566/magic-8ball",
+        liveDemo: "https://magic-8-ball-beryl.vercel.app/"
     },
 
     {
@@ -51,8 +51,8 @@ export const projectData = [
         ,
         improvment: "I should revisit the concepts to learn how to filter the other data. Maybe I would work on displaying information whether it is cancelled or not.",
         image: "/images/airlines.jpg",
-        gitHubLink: "https://github.com/Izaiah566/react-airlines",
-        liveDemo: ""
+        gitHubLink: "https://github.com/Izaiah566/airlines-site",
+        liveDemo: "https://airlines-website-three.vercel.app/"
     },
 
     {
@@ -73,7 +73,7 @@ export const projectData = [
         improvment: "I would had enhancement to the project revisiting the supabase and experiment with it more.",
         image: "/images/marketplace.png",
         gitHubLink: "https://github.com/Izaiah566/final-project-izaiah-store",
-        liveDemo: ""
+        liveDemo: "https://markethub-site-j08xovlo9-izaiah-harrisons-projects.vercel.app/"
         
     },
 
@@ -91,7 +91,7 @@ export const projectData = [
         solution: "I looked up some templates of what my portfolio needs to look like and I managed to make it look enticing.",
         improvment: "There is no improvement I could think of.",
         image: "/images/portfolio.jpg",
-        gitHubLink: "",
+        gitHubLink: "https://github.com/Izaiah566/portfolio-site",
         liveDemo: ""
     }
 ];
