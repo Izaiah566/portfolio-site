@@ -11,11 +11,11 @@ const Home = () => {
              <section className={styles.homeHero}>
               <div>
                 <h2>Hi! My name is Izaiah!</h2>
-                <h1 className={styles.heroTitle}>A web developer who loves to code and create responsive and fun websites.</h1>
+                <h1 className={styles.homeHeroTitle}>A web developer who loves to code and create responsive and fun websites.</h1>
                 <Link to="/Projects" className={styles.homeBtnPrimary}>View Projects</Link>
               </div>
-              <div className={styles.heroImg}>
-                <img src="images/IMG_6647.JPG"></img>
+              <div>
+                <img src="images/IMG_6647.JPG" className={styles.homeHeroImg}></img>
               </div>
              </section>
 
@@ -24,7 +24,7 @@ const Home = () => {
              <section className={styles.homeProjectGrid}>
               {projectData.slice(0,3).map(project => (
               <div key={project.id} className={styles.homeProjectCard}>
-               <div className={styles.homeProjectImg}><img src={project.image}/></div>
+               <img src={project.image} className={styles.homeProjectImg}/>
                <div className={styles.homeProjectBody}>
                  <h3>{project.title}</h3>
                  <p>{project.description}</p>

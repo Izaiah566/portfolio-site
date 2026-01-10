@@ -1,23 +1,7 @@
 export const projectData = [
-    {
-        id: 1,
-        slug: "dungeon-adventure-RPG",
-        title: "Dungeon Adventure RPG",
-        description: "An optimized game app created with python with an add-on Pygame.",
-        longDescription: ` 
-            The dungeon game was created with Python to control the movements of the character. The purpose of the game
-            is to explore around the area, figthing monsters and collecting loot.
-        `,
-        problem: "I wanted make the character move around the screen using the keyboards, but I don't know what to start.",
-        solution: "I looked up online for tutorials and found it on youtube. I followed the instructions step-by-step; unforuntately it stopped at Part 5",
-        improvment: "I would work more on the creating the background, the enemies and objectives",
-        image: "/images/dungeon.jpg",
-        gitHubLink: "https://github.com/Izaiah566/Python_RPG",
-        liveDemo: ""
-    },
 
     {
-        id: 2,
+        id: 1,
         slug: "8-ball-app",
         title: "8ball App",
         description: "A fully stacked website using React.",
@@ -36,7 +20,7 @@ export const projectData = [
     },
 
     {
-        id: 3,
+        id: 2,
         slug: "airlines-app",
         title: "Airlines App",
         description: "A Javascript utilized website upgraded with React components.",
@@ -56,7 +40,7 @@ export const projectData = [
     },
 
     {
-        id: 4,
+        id: 3,
         slug: "marketplace-community-app",
         title: "Marketplace Community App",
         description: "A full-stack community marketplace using Supabase + FastAPI.",
@@ -78,7 +62,7 @@ export const projectData = [
     },
 
     {
-        id: 5,
+        id: 4,
         slug: "portfolio-website",
         title: "Portfolio Website",
         description: "My fully responsive portfolio using React + CSS Modules.",
