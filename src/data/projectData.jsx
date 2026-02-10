@@ -11,9 +11,11 @@ export const projectData = [
             at the bottom. In the input space, the user may ask any question, but it will not always give them
             the asnwers they wanted.
         `,
-        problem: "While creating the website, I wanted to have the ball to shake while asking questions. But when I pressed the button, it doesn't shake before giving me the answer.",
+        problem: `
+            While creating the website, I wanted to have the ball to shake while asking questions. 
+            But when I pressed the button, it doesn't shake before giving me the answer.`,
         solution: "I need to make sure to set the shaking state to true and then to false in the setTimeout statement.",
-        improvment: "I could add an ",
+        improvment: "I could add an 8 as a default number. I also want to add the effect that makes the ball shiny.",
         image: "/images/8ball.jpg",
         gitHubLink: "https://github.com/Izaiah566/magic-8ball",
         liveDemo: "https://magic-8-ball-beryl.vercel.app/"
@@ -33,7 +35,8 @@ export const projectData = [
         solution: `I used the techniques from JavaScript by filtering the different kinds of airlines to get the result. 
             I used the same technique when remaking it into React.`
         ,
-        improvment: "I should revisit the concepts to learn how to filter the other data. Maybe I would work on displaying information whether it is cancelled or not.",
+        improvment: `I should revisit the concepts to learn how to filter the other data. 
+        Maybe I would work on displaying information whether it is cancelled or not.`,
         image: "/images/airlines.jpg",
         gitHubLink: "https://github.com/Izaiah566/airlines-site",
         liveDemo: "https://airlines-website-three.vercel.app/"
@@ -53,7 +56,7 @@ export const projectData = [
         I focused creating the design of it to make it look professional. 
         Sometimes I distract myself from doing backend programming while trying make it look interesting.
         `,
-        solution: "I looked for starter layouts and mockup database to spare me the effort to create the website from scratch",
+        solution: "I looked for starter layouts and mockup database to spare me the effort to create the website from scratch.",
         improvment: "I would had enhancement to the project revisiting the supabase and experiment with it more.",
         image: "/images/marketplace.png",
         gitHubLink: "https://github.com/Izaiah566/final-project-izaiah-store",
